@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+}
+nav{
+    box-shadow: 2px -2px 0px 5px rgba(134, 130, 130, 0.842);
+    position: fixed;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid green;
+    padding:15px;
+   transition: all .4s;
+}
+.nav-link{
+    text-transform: uppercase;
+}
+
+#head1{
+    font-size: 60px;
+}
+#home{
+    background-image: url(background.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 655px;
+    color: white;
+}
+#header{
+    padding-top:13rem;
+}
+
+#btn{
+    font-size: 25px;
+    margin-top: 3rem;
+}
+.line{
+    width: 100%;
+    height: 5px;
+    background-color: lightgreen;
+}
+#center{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.menu{
+    background-color: rgb(209, 204, 204);
+}
+.card-title{
+    font-size: 35px;
+}
+.card-text{
+    font-size: 20px;
+}
+#btn-menu{
+    border-bottom: 5px solid lightgreen;
+    text-transform: uppercase;
+}
+.card-body{
+    transition: all 0.5s;
+}
+.card:hover{
+    box-shadow: 2px 2px 0px 2px rgb(151, 148, 148);
+    transition: all .5s;
+}
+.img-slide-show{
+    height: 400px;
+    min-width: 580px;
+    min-height: 580px;
+}
+.fa {
+    padding: 16px;
+    font-size: 30px;
+    width: 57px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
+}
+.fa:hover {
+      opacity: 0.6;
+}
+.fa-instagram {
+    background: #d33247;
+    color: white;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+.card-img1{
+    max-height: 300px;
+    min-height: 300px;
+}
+
+.news{
+    background-color: rgb(209, 204, 204);
+}
